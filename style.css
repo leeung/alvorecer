@@ -1,0 +1,71 @@
+/*
+Theme Name: Alvorecer
+Theme URI:
+Author: 
+Author URI: 
+Description: 
+Version: 
+Tags:
+Text Domain: 
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+This theme is licensed under the GPL.
+*/
+
+/**========INDICE========
+* 1 - DEFINIÇÕES GERAIS DO SITE (define configurações utilizada em todo o site)
+* 2 - HEADER(PAGINA)
+*/
+
+
+/**
+* 1- DEFINIÇÕES GERAIS DO SITE
+*/
+
+.bg-magento{background-color: #e0e5e9;}
+.bg-cinza{background-color: #d4ced0;}
+.bg-yellow{background-color: #fff002;}
+.bg-azulclaro{background-color: #00aeff;}
+.bg-azulescuro{background-color: #0e4377;}
+.bg-laranja{background-color: #ff5114;}
+.bg-verdeclaro{background-color: #9be2c4;}
+.bg-verdefolha{background-color: #00b35c;}
+
+
+/**
+* 2- HEADER(PAGINA)
+*/
+.icone-logo{margin-top:-55px;} /*AJUSTE DO LOGO*/
+/*body { padding-top: 80px; background-color: red;}/*AJUSTE POSIÇÃO DO SLIDESHOW*/
+.barra-topo-slideshow{padding: 10px 0;margin-top: -20px;}/*TAMANHO DA BARRA LARANJA DO SLIDESHOW*/
+.barra-bottom-footer{padding: 10px 0;}/*TAMANHO DA BARRA AMARELA DO FOOTER*/
+.slideshow-principal, .barrafooter{margin-left: -15px;margin-right:-15px;/*AJUSTE DO CONTAINER FLUID PARA FULL*/
+}
+
+
+/**
+* 2- POSTS(PAGINA)
+*/
+.posts{padding-top: 20px;}/*ESPAÇO SUPERIOR DOS POSTS*/
+
+/**
+* 2- SIDEBAR
+*/
+.sidebar{overflow-x: hidden;}/*CULPA O QUE PASSA DO SIDEBAR*/
+
+/**
+* 2- FOOTER
+*/
+.footer{background: url(img/fundo_footer.gif) repeat-x #0e4377;padding-top: 20px; color: #FFF}/*CULPA O QUE PASSA DO SIDEBA*/
+
+.item-footer::before{
+    content: "";
+    background-color: #014582;
+    width: 4px;
+    height: 180px;
+    float: left;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+
